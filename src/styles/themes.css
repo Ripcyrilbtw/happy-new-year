@@ -1,0 +1,55 @@
+:root,
+[data-theme="dark-gold"] {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent-color: #d4af37;
+  --accent-color-alpha: rgba(212, 175, 55, 0.2);
+  --border-color: #2a2a2a;
+}
+
+[data-theme="midnight-blue"] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --accent-color: #38bdf8;
+  --accent-color-alpha: rgba(56, 189, 248, 0.2);
+  --border-color: #334155;
+}
+
+[data-theme="minimal-light"] {
+  --bg-primary: #fafafa;
+  --bg-secondary: #ffffff;
+  --text-primary: #0a0a0a;
+  --text-secondary: #737373;
+  --accent-color: #0ea5e9;
+  --accent-color-alpha: rgba(14, 165, 233, 0.15);
+  --border-color: #e5e5e5;
+}
+
+[data-theme="neon-modern"] {
+  --bg-primary: #050505;
+  --bg-secondary: #0d0d0d;
+  --text-primary: #ffffff;
+  --text-secondary: #999999;
+  --accent-color: #00ff88;
+  --accent-color-alpha: rgba(0, 255, 136, 0.2);
+  --border-color: #1a1a1a;
+}
+
+[data-theme="elegant-purple"] {
+  --bg-primary: #0c0a14;
+  --bg-secondary: #1a1625;
+  --text-primary: #f3f0ff;
+  --text-secondary: #b4a7d6;
+  --accent-color: #a78bfa;
+  --accent-color-alpha: rgba(167, 139, 250, 0.2);
+  --border-color: #2d2438;
+}
+
+body {
+  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
